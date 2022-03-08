@@ -7,7 +7,7 @@ makedocs(;
     modules=[StorageOrders],
     authors="Wimmerer <kimmerer@mit.edu> and contributors",
     repo="https://github.com/Wimmerer/StorageOrders.jl/blob/{commit}{path}#{line}",
-    sitename="StorageOrder.jl",
+    sitename="StorageOrders.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
         canonical="https://Wimmerer.github.io/StorageOrders.jl",
