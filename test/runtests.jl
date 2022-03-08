@@ -1,6 +1,6 @@
-using StorageOrder
+using StorageOrders
 using Test
 
-@testset "StorageOrder.jl" begin
+@testset "StorageOrders.jl" begin
     # Write your tests here.
 end
