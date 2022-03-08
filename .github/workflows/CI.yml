@@ -54,6 +54,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using StorageOrder
-            DocMeta.setdocmeta!(StorageOrder, :DocTestSetup, :(using StorageOrder); recursive=true)
-            doctest(StorageOrder)'
+            using StorageOrders
+            DocMeta.setdocmeta!(StorageOrders, :DocTestSetup, :(using StorageOrders); recursive=true)
+            doctest(StorageOrders)'

@@ -2,7 +2,7 @@
 CurrentModule = StorageOrders
 ```
 
-# StorageOrder
+# StorageOrders
 
 Documentation for [StorageOrders](https://github.com/Wimmerer/StorageOrders.jl).
 
