@@ -1,4 +1,4 @@
-using StorageOrder
+using StorageOrders
 using Documenter
 
 DocMeta.setdocmeta!(StorageOrder, :DocTestSetup, :(using StorageOrder); recursive=true)

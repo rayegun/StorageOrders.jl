@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = StorageOrder
+CurrentModule = StorageOrders
 ```
 
 # StorageOrder
 
-Documentation for [StorageOrder](https://github.com/Wimmerer/StorageOrder.jl).
+Documentation for [StorageOrders](https://github.com/Wimmerer/StorageOrders.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [StorageOrder]
+Modules = [StorageOrders]
 ```
