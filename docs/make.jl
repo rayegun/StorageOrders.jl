@@ -1,16 +1,16 @@
 using StorageOrders
 using Documenter
 
-DocMeta.setdocmeta!(StorageOrder, :DocTestSetup, :(using StorageOrder); recursive=true)
+DocMeta.setdocmeta!(StorageOrders, :DocTestSetup, :(using StorageOrders); recursive=true)
 
 makedocs(;
-    modules=[StorageOrder],
+    modules=[StorageOrders],
     authors="Wimmerer <kimmerer@mit.edu> and contributors",
-    repo="https://github.com/Wimmerer/StorageOrder.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/Wimmerer/StorageOrders.jl/blob/{commit}{path}#{line}",
     sitename="StorageOrder.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://Wimmerer.github.io/StorageOrder.jl",
+        canonical="https://Wimmerer.github.io/StorageOrders.jl",
         assets=String[],
     ),
     pages=[
@@ -19,6 +19,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/Wimmerer/StorageOrder.jl",
+    repo="github.com/Wimmerer/StorageOrders.jl",
     devbranch="main",
 )
