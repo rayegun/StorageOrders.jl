@@ -1,4 +1,4 @@
-# StorageOrder
+# StorageOrders
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://Wimmerer.github.io/StorageOrder.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://Wimmerer.github.io/StorageOrder.jl/dev)
