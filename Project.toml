@@ -1,7 +1,7 @@
 name = "StorageOrders"
 uuid = "e9177fbf-8fde-426c-9425-4eed0f22262a"
 authors = ["Wimmerer <kimmerer@mit.edu> and contributors"]
-version = "0.2.0"
+version = "0.3.0"
 
 [compat]
 julia = "1"
