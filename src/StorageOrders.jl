@@ -9,7 +9,7 @@ struct RuntimeOrder <: StorageOrder end # Order is known only at runtime, needs 
 
 function storageorder(A::AbstractArray)
     order = comptime_storageorder(A)
-    return order === RuntimeOrder ? runtime_storageorder(A) : order
+    return order === RuntimeOrder() ? runtime_storageorder(A) : order
 end
 
 comptime_storageorder(::AbstractArray) = ColMajor()
